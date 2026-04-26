@@ -1,10 +1,10 @@
 # Count consonants
 
-str = input("Enter the string: ")
+s = input("Enter the string: ")
 
 count = 0
 
-for ch in str:
+for ch in s:
     if ch in "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ":
         count +=1
 
