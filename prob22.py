@@ -1,4 +1,6 @@
 # Replace vowels with *
+#assisted by ChatGpt
+
 
 s = input("Enter the String: ") #accept user input 
 
