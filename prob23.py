@@ -2,17 +2,19 @@
 
 s = input("Enter the String: ")
 
-alpha = ""
-dig = ""
-sp = ""
-
+alpha = 0
+dig = 0
+sp = 0
 for ch in s:
-    if ch in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ":
-        alpha =+ alpha
-    if ch in '0987654321':
-        dig =+ dig
-    if ch in '!@#$%^&*':
-        sp =+ sp
+    if ch.isalpha():
+        alpha += 1 
+
+    elif ch.isdigit():
+        dig += 1
+
+    else:
+    sp += 1
+
 
 print(f"The Alphabet count is : {alpha}")
 print(f"The Digit count is : {dig}")
