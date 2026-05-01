@@ -13,7 +13,7 @@ for ch in s:
         dig += 1
 
     else:
-    sp += 1
+        sp += 1
 
 
 print(f"The Alphabet count is : {alpha}")
