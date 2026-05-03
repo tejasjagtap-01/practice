@@ -1,4 +1,4 @@
-# Q1. Write a Python program to swap two variables.
+# Q. Write a Python program to swap two variables.
 
 s = int(input("Enter the number 1: "))
 
