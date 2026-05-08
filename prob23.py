@@ -2,17 +2,18 @@
 
 s = input("Enter the String: ")
 
-alpha = 0
-dig = 0
-sp = 0
-for ch in s:
-    if ch.isalpha():
+alpha = 0 #Count Alphabet
+dig = 0 #Count Digit
+sp = 0 #Count Special Character
+
+for ch in s: #Loop through each character
+    if ch.isalpha(): #check if character is alphabet
         alpha += 1 
 
-    elif ch.isdigit():
+    elif ch.isdigit(): #check if character is digit or not
         dig += 1
 
-    else:
+    else: #neither alphabet nor character 
         sp += 1
 
 
