@@ -1,4 +1,4 @@
-# Q3. Write a program to check if a number is even or odd. 
+# Q. Write a program to check if a number is even or odd. 
 
 s = int(input("Enter the number: "))
 
