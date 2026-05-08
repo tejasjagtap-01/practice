@@ -2,13 +2,17 @@
 
 s = input("Enter the string: ")
 
-freq = {}
+freq = {} # it creates dictionary to store 
+#() creates a tuple, not a dictionary → tuple is immutable
 
 for ch in s:
+    #character already exists → increase count
     if ch in freq:
         freq[ch] += 1
+    #character comes first time → set count = 1
     else:
         freq[ch] = 1
     
-for key in freq:
+#key means each character stored in dictionary
+for key in freq: 
     print(key, ":", freq[key])
