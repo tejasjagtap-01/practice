@@ -1,23 +1,6 @@
-# x=1
+# Write a program to display the cube of the number up to an integer. 
 
-# if(x!=1):
-#     print('Hello')
+s = int(input("enter the number: "))
 
-# else:
-#     print('Hi')
-# print('Mike')
-
-# A = ['1','2','3']
-
-# for a in A:
-#     print(2*a)
-
-# def Delta(x):
-    
-#     if x==0:
-#         y=1
-#     else:
-#         y=0
-#     return(y)
-
-a = {'a':1,'b':2}
+for i in range(1,s+1):
+    print (f"The Cube Number {i} is {i**3}")
