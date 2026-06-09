@@ -11,8 +11,7 @@ while True:
         
         if secret_no == s:
             print("The Guess is right")
-            break
         elif secret_no != s:
             print("It's worng guess")
     except ValueError:
-        prinit(f"Please enter the Right Choice")
+        print(f"Please enter the Right Choice")
