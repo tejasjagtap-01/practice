@@ -1,3 +1,5 @@
+#Palindrome Question
+
 s = input("Enter the String: ")
 
 left = 0
